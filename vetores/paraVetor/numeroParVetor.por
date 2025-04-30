@@ -7,8 +7,9 @@ programa {
       escreva("digite um número: ")
       leia(numeros[i])
 
-      se(numeros[i] % 2 == 0)
-      escreva("número par: ", i, "\n")
+      se(numeros[i] % 2 == 0){
+      escreva("número par: ", numeros[i], "\n")
+      }
 
     }
 
