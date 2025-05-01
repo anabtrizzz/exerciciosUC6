@@ -16,9 +16,7 @@ programa {
     }
 
     escreva("números digitados, negativos substituídos por 0: \n" )
-
-    para(inteiro i = 0; i < 6; i++){
-    escreva(numeros[i], "\n")
+    escreva(numeros)
     }
 
 
