@@ -6,15 +6,22 @@ programa {
 
     faca{
 
-      escreva("digite seu nome: ")
+      escreva("digite o nome do aluno: ")
       leia(nome[i])
 
-      escreva("digite sua idade: ")
+      escreva("digite a idade do aluno: ")
       leia(idade[i])
       i++
     }enquanto( i < 5)
+     
+     i = 0
     
-    escreva("esses foram os nomes digitados: ", nome, "\n", "e suas repectivas idades: ", idade, "\n")
+    escreva("lista de alunos \n")
+
+    faca{
+      escreva(nome[i], " - ", idade[i], " anos \n")
+      i++
+    } enquanto( i < 5)
 
 
   }
