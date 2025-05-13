@@ -10,15 +10,14 @@ programa {
     escreva("a média do aluno é: ", media(numero, numero2))
     
     se(media(numero, numero2) >= 6){
-      escreva(" \n aprovado! \n")
+      escreva(" \naprovado! \n")
     }
     senao{
-      escreva("\n reprovado! \n")
+      escreva("\nreprovado! \n")
     }
 
       }
   funcao real media(real n1, real n2){
-    retorne n1 + n2 / 2
-
+    retorne (n1 + n2) / 2
   }
 }
